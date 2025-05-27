@@ -96,7 +96,6 @@ class VideoContentExtractor:
         highlights.write_videofile(output_path, codec='libx264')
         self.video.close()
 
-# Usage example
 if __name__ == "_main_":
     extractor = VideoContentExtractor("input_video_1.mp4")
     extractor.process_video("output_highlights_1.mp4")
